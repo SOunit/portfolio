@@ -1,5 +1,7 @@
 import SectionTitle from '../section-title/SectionTitle';
 import Card from './card/Card';
+import classes from './Worklog.module.css';
+
 import {
   BUG_FIX,
   CSS3,
@@ -92,7 +94,7 @@ const DATA_LIST = [
 const Worklog = () => {
   const cards = DATA_LIST.map((data) => <Card key={data.id} data={data} />);
   return (
-    <section id='worklog-section'>
+    <section className={classes['worklog-section']}>
       <SectionTitle title='Work Log' />
       {cards}
     </section>

@@ -86,7 +86,7 @@ const INFRA_DATA = [
   },
   {
     title: 'Firebase',
-    iconClassName: 'far fa-square',
+    iconClassName: 'fas fa-server',
     rate: '☆☆☆',
   },
   {
@@ -102,9 +102,15 @@ const INFRA_DATA = [
 ];
 
 const Toolset = () => {
-  const frontItems = FRONT_DATA.map((data) => <Item data={data} />);
-  const backItems = BACK_DATA.map((data) => <Item data={data} />);
-  const infraItems = INFRA_DATA.map((data) => <Item data={data} />);
+  const frontItems = FRONT_DATA.map((data) => (
+    <Item key={data.title} data={data} />
+  ));
+  const backItems = BACK_DATA.map((data) => (
+    <Item key={data.title} data={data} />
+  ));
+  const infraItems = INFRA_DATA.map((data) => (
+    <Item key={data.title} data={data} />
+  ));
   return (
     <section id='toolset-section'>
       <SectionTitle title='Toolset' />
