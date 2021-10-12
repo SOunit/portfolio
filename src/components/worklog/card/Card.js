@@ -5,7 +5,7 @@ const Card = (props) => {
     <div
       key={`${props.data.id}_${task}`}
       className={`${classes['card__skill']} ${
-        props.data.isFront ? classes['card__skill--front'] : null
+        props.data.isFront ? classes['card__skill--front'] : ''
       }`}
     >
       {task}
@@ -16,7 +16,7 @@ const Card = (props) => {
     <div
       key={`${props.data.id}_${using}`}
       className={`${classes['card__skill']} ${
-        props.data.isFront ? classes['card__skill--front'] : null
+        props.data.isFront ? classes['card__skill--front'] : ''
       }`}
     >
       {using}
@@ -26,12 +26,12 @@ const Card = (props) => {
   return (
     <div
       className={`${classes['card']} ${
-        props.data.isFront ? classes['card--front'] : null
+        props.data.isFront ? classes['card--front'] : ''
       }`}
     >
       <div
         className={`${classes['card__detail']} ${
-          props.data.isFront ? classes['card__detail--front'] : null
+          props.data.isFront ? classes['card__detail--front'] : ''
         }`}
       >
         <h3 className={classes['card__title']}>{props.data.companyName}</h3>
