@@ -1,0 +1,13 @@
+.item {
+  margin: 0.8rem;
+  text-align: center;
+  color: #ff683a;
+}
+
+.item__icon {
+  font-size: 5rem;
+}
+
+.item__title {
+  margin: 0;
+}
