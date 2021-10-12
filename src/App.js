@@ -1,9 +1,10 @@
 import Layout from './components/ui/Layout/Layout';
+import Worklog from './components/worklog/Worklog';
 
 function App() {
   return (
     <Layout>
-      <div>main content</div>
+      <Worklog />
     </Layout>
   );
 }

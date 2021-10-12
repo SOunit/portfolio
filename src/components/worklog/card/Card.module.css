@@ -1,0 +1,50 @@
+.card {
+  border: 3px solid #259797;
+  color: #259797;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 3px 3px 0 #259797;
+  text-align: center;
+}
+
+.card--front {
+  border: 3px solid #1f1fce;
+  color: #1f1fce;
+  box-shadow: 3px 3px 0 #1f1fce;
+}
+
+.card__detail {
+  border-bottom: 2px solid #259797;
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.card__detail--front {
+  border-bottom: 2px solid #1f1fce;
+}
+
+.card__title {
+  margin: 0;
+}
+.card__subtitle {
+  margin: 0.2rem 0 1rem 0;
+  font-size: 0.8rem;
+}
+
+.card__skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card__skill {
+  background-color: #259797;
+  color: white;
+  padding: 0.4rem;
+  margin: 0.2rem;
+}
+
+.card__skill--front {
+  background-color: #1f1fce;
+}
