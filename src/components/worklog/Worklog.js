@@ -1,4 +1,4 @@
-import SectionTitle from '../section-title/SectionTitle';
+import SectionTitle from '../sectionTitle/SectionTitle';
 import Card from './card/Card';
 import classes from './Worklog.module.css';
 

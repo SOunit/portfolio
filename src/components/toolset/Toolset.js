@@ -1,4 +1,4 @@
-import SectionTitle from '../section-title/SectionTitle';
+import SectionTitle from '../sectionTitle/SectionTitle';
 import Item from './item/Item';
 import classes from './Toolset.module.css';
 
