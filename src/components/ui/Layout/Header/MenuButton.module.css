@@ -1,0 +1,15 @@
+.menu-btn {
+  width: 2rem;
+}
+
+.menu-btn__bar {
+  background-color: white;
+  margin: 0.3rem 0;
+  height: 0.2rem;
+}
+
+@media (min-width: 40rem) {
+  .menu-btn {
+    display: none;
+  }
+}
