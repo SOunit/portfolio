@@ -1,0 +1,10 @@
+.side-project {
+  background-color: #eeeeee;
+  padding-top: 0.1rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

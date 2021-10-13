@@ -112,7 +112,7 @@ const Toolset = () => {
     <Item key={data.title} data={data} />
   ));
   return (
-    <section id='toolset-section'>
+    <section>
       <SectionTitle title='Toolset' />
       <h3 className={classes['tools-title']}>Frontend</h3>
       <div className={classes['toolset-items']}>{frontItems}</div>
