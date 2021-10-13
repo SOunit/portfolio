@@ -2,10 +2,11 @@
   border: 3px solid #259797;
   color: #259797;
   margin: 0 1rem 2rem 1rem;
-  padding: 1rem;
+  padding: 1rem 0;
   background-color: white;
   box-shadow: 3px 3px 0 #259797;
   text-align: center;
+  width: 95%;
 }
 
 .card--front {
@@ -47,4 +48,10 @@
 
 .card__skill--front {
   background-color: #1f1fce;
+}
+
+@media (min-width: 40rem) {
+  .card {
+    width: 45%;
+  }
 }

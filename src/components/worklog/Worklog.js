@@ -96,7 +96,7 @@ const Worklog = () => {
   return (
     <section className={classes['worklog-section']}>
       <SectionTitle title='Work Log' />
-      {cards}
+      <div className={classes['cards']}>{cards}</div>
     </section>
   );
 };
