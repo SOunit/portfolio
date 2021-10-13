@@ -44,7 +44,7 @@ const PROJECTS = [
     text: 'This portfilio site.',
     skills: [REACT, FIREBASE],
     githubUrl: 'https://github.com/SOunit/portfolio',
-    demoUrl: '#',
+    demoUrl: 'https://portfolio-fb053.web.app/',
   },
 ];
 
