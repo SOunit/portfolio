@@ -46,6 +46,15 @@ const PROJECTS = [
     githubUrl: 'https://github.com/SOunit/portfolio',
     demoUrl: 'https://portfolio-fb053.web.app/',
   },
+  {
+    id: 3,
+    iconClasses: 'fas fa-gamepad',
+    title: 'Quiz RPG',
+    text: 'Quiz game app for repeat practice.',
+    skills: [REACT, FIREBASE],
+    githubUrl: 'https://github.com/SOunit/quiz_rpg',
+    demoUrl: 'https://quiz-rpg.web.app/',
+  },
 ];
 
 const SideProject = () => {
