@@ -2,12 +2,18 @@
   margin: 0.8rem;
   text-align: center;
   color: #ff683a;
+  width: 5rem;
 }
 
 .item__icon {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .item__title {
   margin: 0;
+  font-size: 0.8rem;
+}
+
+.item__rate {
+  font-size: 0.8rem;
 }

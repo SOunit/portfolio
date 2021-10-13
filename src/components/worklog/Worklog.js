@@ -1,4 +1,4 @@
-import SectionTitle from '../section-title/SectionTitle';
+import SectionTitle from '../sectionTitle/SectionTitle';
 import Card from './card/Card';
 import classes from './Worklog.module.css';
 
@@ -96,7 +96,7 @@ const Worklog = () => {
   return (
     <section className={classes['worklog-section']}>
       <SectionTitle title='Work Log' />
-      {cards}
+      <div className={classes['cards']}>{cards}</div>
     </section>
   );
 };

@@ -1,0 +1,76 @@
+.card {
+  border: 3px solid #ff683a;
+  text-align: center;
+  padding: 0.8rem;
+  background-color: #ffa489;
+  margin: 0 1rem 1rem 1rem;
+  width: 95%;
+}
+
+.icon-container {
+  width: 80%;
+  background-color: #ff7f58;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1rem auto;
+}
+
+.card__icon {
+  font-size: 3rem;
+}
+
+.card__info {
+  background-color: #fff;
+  color: #ff683a;
+  padding: 1rem;
+  width: 100%;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__text {
+  margin: 0.2rem;
+}
+
+.card__skills {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: 1px solid #ff683a;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.card__skill {
+  background-color: #ff683a;
+  color: white;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.card__links {
+  background-color: #ff683a;
+  padding: 0.3rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.github-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 40rem) {
+  .card {
+    width: 45%;
+  }
+}

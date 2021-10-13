@@ -1,4 +1,4 @@
-import SectionTitle from '../section-title/SectionTitle';
+import SectionTitle from '../sectionTitle/SectionTitle';
 import Item from './item/Item';
 import classes from './Toolset.module.css';
 
@@ -112,7 +112,7 @@ const Toolset = () => {
     <Item key={data.title} data={data} />
   ));
   return (
-    <section id='toolset-section'>
+    <section>
       <SectionTitle title='Toolset' />
       <h3 className={classes['tools-title']}>Frontend</h3>
       <div className={classes['toolset-items']}>{frontItems}</div>
