@@ -62,7 +62,7 @@ const SideProject = () => {
     <Card key={project.id} data={project} />
   ));
   return (
-    <section className={classes['side-project']}>
+    <section id='side-projects' className={classes['side-projects']}>
       <SectionTitle title='Side Projects' />
       <div className={classes['cards']}>{cards}</div>
     </section>
