@@ -17,7 +17,7 @@ const HeaderNav = () => {
         </AnchorLink>
         <AnchorLink
           className={classes['nav-item']}
-          href='#side-project'
+          href='#side-projects'
           offset='70'
         >
           Side Projects

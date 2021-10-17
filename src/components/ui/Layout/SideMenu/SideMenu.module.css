@@ -1,0 +1,30 @@
+.side-menu {
+  position: fixed;
+  top: 4.7rem;
+  right: -100rem;
+  background-color: #ff683a;
+  transition: right 0.5s;
+}
+
+.side-menu--open {
+  right: 0;
+}
+
+.side-menu__items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 70vw;
+  height: 100vh;
+}
+
+.side-menu__link {
+  text-decoration: none;
+  color: #ff683a;
+}
+
+.side-menu__item {
+  padding: 1rem;
+  background-color: #fff;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
