@@ -14,3 +14,6 @@ simple introduction of
 ## demo page
 https://portfolio-fb053.web.app/
 
+## skills
+- React.js
+- Firebase to deploy react
