@@ -3,6 +3,7 @@
   height: 100vh;
   width: 100vw;
   position: fixed;
+  /* header height is 4.7rem */
   top: 4.7rem;
   left: 0;
 }
