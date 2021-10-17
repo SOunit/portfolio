@@ -94,7 +94,7 @@ const DATA_LIST = [
 const Worklog = () => {
   const cards = DATA_LIST.map((data) => <Card key={data.id} data={data} />);
   return (
-    <section className={classes['worklog-section']}>
+    <section id='work-log' className={classes['worklog-section']}>
       <SectionTitle title='Work Log' />
       <div className={classes['cards']}>{cards}</div>
     </section>

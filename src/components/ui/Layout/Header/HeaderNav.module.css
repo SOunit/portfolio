@@ -11,6 +11,7 @@
   margin: 0.2rem;
   padding: 0.4rem;
   box-shadow: 3px 3px 0 #973619;
+  text-decoration: none;
 }
 
 @media (min-width: 40rem) {

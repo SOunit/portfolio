@@ -2,7 +2,7 @@ import classes from './Welcome.module.css';
 
 const Welcome = () => {
   return (
-    <div className={classes['welcome']}>
+    <div className={classes['welcome']} id='top'>
       <h2 className={classes['welcome__title']}>Thank you</h2>
       <p className={classes['welcome__caption']}>
         for visiting my portfolio page!
