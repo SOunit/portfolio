@@ -17,3 +17,7 @@ https://portfolio-fb053.web.app/
 ## skills
 - React.js
 - Firebase to deploy react
+
+## functions
+- basic react logics
+- scroll to some position
