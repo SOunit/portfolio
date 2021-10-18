@@ -19,5 +19,6 @@ https://portfolio-fb053.web.app/
 - Firebase to deploy react
 
 ## functions
+- responsive design
 - basic react logics
 - scroll to some position
