@@ -22,3 +22,5 @@ https://portfolio-fb053.web.app/
 - responsive design
 - basic react logics
 - scroll to some position
+
+## Infrastructure configuration diagram
