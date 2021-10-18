@@ -23,6 +23,7 @@ import {
   DETAIL_DESIGN,
   UNIT_TEST,
   INTEGRATION_TEST,
+  SYSTEM_TEST,
 } from '../../util/consts';
 
 const DATA_LIST = [
@@ -34,7 +35,14 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Oct 2020 - Jun 2021 (9 mos)',
     place: 'Kyoto, Japan',
-    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
+    tasks: [
+      BASIC_DESIGN,
+      DETAIL_DESIGN,
+      CODING,
+      UNIT_TEST,
+      INTEGRATION_TEST,
+      SYSTEM_TEST,
+    ],
     usings: [JAVA, POSTGRES_SQL, TOMCAT],
   },
   {
@@ -45,7 +53,14 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Feb 2020 - Sep 2020 (8 mos)',
     place: OSAKA_JAPAN,
-    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
+    tasks: [
+      BASIC_DESIGN,
+      DETAIL_DESIGN,
+      CODING,
+      UNIT_TEST,
+      INTEGRATION_TEST,
+      SYSTEM_TEST,
+    ],
     usings: [JAVA, JAVA_SCRIPT, HTML5, CSS3, POSTGRES_SQL, TOMCAT, VBA],
   },
   {
@@ -67,7 +82,14 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Aug 2018 - Dec 2019 (1yr 5mos)',
     place: OSAKA_JAPAN,
-    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
+    tasks: [
+      BASIC_DESIGN,
+      DETAIL_DESIGN,
+      CODING,
+      UNIT_TEST,
+      INTEGRATION_TEST,
+      SYSTEM_TEST,
+    ],
     usings: [JAVA, HTML5, CSS3, MY_SQL, TOMCAT],
   },
   {
@@ -78,7 +100,7 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Mar 2018 - Jul 2018 (5mos)',
     place: OSAKA_JAPAN,
-    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST],
+    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
     usings: [JAVA, ORACLE_DB, TOMCAT],
   },
   {
