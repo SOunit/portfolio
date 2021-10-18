@@ -4,7 +4,7 @@
   top: 4.7rem;
   right: -100rem;
   background-color: #ff683a;
-  transition: right 0.5s;
+  transition: right 0.3s;
 }
 
 .side-menu--open {
