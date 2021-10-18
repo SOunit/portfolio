@@ -13,7 +13,7 @@ import {
   GRAPHQL,
   SOCKET_IO,
   POSTGRES_SQL,
-} from '../consts/consts';
+} from '../../util/consts';
 
 const PROJECTS = [
   {

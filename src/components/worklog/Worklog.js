@@ -3,9 +3,7 @@ import Card from './card/Card';
 import classes from './Worklog.module.css';
 
 import {
-  BUG_FIX,
   CSS3,
-  ENHANCEMENT,
   HTML5,
   HTML_CODER,
   JAVA,
@@ -20,7 +18,12 @@ import {
   SQL_SERVER,
   TOMCAT,
   VBA,
-} from '../consts/consts';
+  CODING,
+  BASIC_DESIGN,
+  DETAIL_DESIGN,
+  UNIT_TEST,
+  INTEGRATION_TEST,
+} from '../../util/consts';
 
 const DATA_LIST = [
   {
@@ -31,7 +34,7 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Oct 2020 - Jun 2021 (9 mos)',
     place: 'Kyoto, Japan',
-    tasks: [BUG_FIX, ENHANCEMENT],
+    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
     usings: [JAVA, POSTGRES_SQL, TOMCAT],
   },
   {
@@ -42,7 +45,7 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Feb 2020 - Sep 2020 (8 mos)',
     place: OSAKA_JAPAN,
-    tasks: [BUG_FIX, ENHANCEMENT],
+    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
     usings: [JAVA, JAVA_SCRIPT, HTML5, CSS3, POSTGRES_SQL, TOMCAT, VBA],
   },
   {
@@ -64,7 +67,7 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Aug 2018 - Dec 2019 (1yr 5mos)',
     place: OSAKA_JAPAN,
-    tasks: [BUG_FIX, ENHANCEMENT],
+    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
     usings: [JAVA, HTML5, CSS3, MY_SQL, TOMCAT],
   },
   {
@@ -75,7 +78,7 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Mar 2018 - Jul 2018 (5mos)',
     place: OSAKA_JAPAN,
-    tasks: [ENHANCEMENT],
+    tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST],
     usings: [JAVA, ORACLE_DB, TOMCAT],
   },
   {
@@ -86,7 +89,7 @@ const DATA_LIST = [
     jobTitle: SOFTWARE_ENGINEER,
     term: 'Sept 2017 - Sept 2018 (1 yr)',
     place: OSAKA_JAPAN,
-    tasks: [BUG_FIX, 'Data maintenance', ENHANCEMENT],
+    tasks: [DETAIL_DESIGN, CODING, UNIT_TEST],
     usings: [JAVA, 'Servlets / JSP', SQL_SERVER, TOMCAT, VBA],
   },
 ];
