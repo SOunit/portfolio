@@ -24,3 +24,4 @@ https://portfolio-fb053.web.app/
 - scroll to some position
 
 ## Infrastructure configuration diagram
+<img width="586" alt="スクリーンショット 2021-10-17 午後5 18 01" src="https://user-images.githubusercontent.com/38809138/137650352-e72a1e64-fda8-4644-b889-a29a71b399b1.png">
