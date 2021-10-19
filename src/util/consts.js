@@ -25,7 +25,7 @@ export const GRAPHQL = 'Graphql';
 export const SOCKET_IO = 'Socket.IO';
 
 export const SQL_SERVER = 'SQL Server';
-export const POSTGRES_SQL = 'PostgresSQL';
+export const POSTGRE_SQL = 'PostgreSQL';
 export const ORACLE_DB = 'Oracle DB';
 export const MY_SQL = 'MySQL';
 
