@@ -13,7 +13,7 @@ import {
   ORACLE_DB,
   OSAKA_JAPAN,
   PHP,
-  POSTGRES_SQL,
+  POSTGRE_SQL,
   SOFTWARE_ENGINEER,
   SQL_SERVER,
   TOMCAT,
@@ -43,7 +43,7 @@ const DATA_LIST = [
       INTEGRATION_TEST,
       SYSTEM_TEST,
     ],
-    usings: [JAVA, POSTGRES_SQL, TOMCAT],
+    usings: [JAVA, POSTGRE_SQL, TOMCAT],
   },
   {
     id: '5',
@@ -61,7 +61,7 @@ const DATA_LIST = [
       INTEGRATION_TEST,
       SYSTEM_TEST,
     ],
-    usings: [JAVA, JAVA_SCRIPT, HTML5, CSS3, POSTGRES_SQL, TOMCAT, VBA],
+    usings: [JAVA, JAVA_SCRIPT, HTML5, CSS3, POSTGRE_SQL, TOMCAT, VBA],
   },
   {
     id: '4',

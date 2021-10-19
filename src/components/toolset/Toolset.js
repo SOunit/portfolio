@@ -42,7 +42,7 @@ const BACK_DATA = [
     rate: '☆☆☆☆',
   },
   {
-    title: 'PostgresSQL',
+    title: 'PostgreSQL',
     iconClassName: 'fas fa-database',
     rate: '☆☆☆☆',
   },

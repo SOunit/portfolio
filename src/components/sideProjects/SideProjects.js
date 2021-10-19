@@ -12,7 +12,7 @@ import {
   GITHUB,
   GRAPHQL,
   SOCKET_IO,
-  POSTGRES_SQL,
+  POSTGRE_SQL,
 } from '../../util/consts';
 
 const PROJECTS = [
@@ -27,7 +27,7 @@ const PROJECTS = [
       EXPRESS,
       GRAPHQL,
       SOCKET_IO,
-      POSTGRES_SQL,
+      POSTGRE_SQL,
       DOCKER,
       AWS,
       GIT,
