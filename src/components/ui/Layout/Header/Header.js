@@ -1,8 +1,8 @@
 import classes from './Header.module.css';
-import HeaderNav from './HeaderNav';
-import MenuButton from './MenuButton';
+import HeaderNav from './headerNav/HeaderNav';
+import MenuButton from './menuButton/MenuButton';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Icons from './Icons';
+import Icons from './icons/Icons';
 
 const Header = (props) => {
   return (

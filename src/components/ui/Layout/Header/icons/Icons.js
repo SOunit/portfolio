@@ -1,4 +1,4 @@
-import { GITHUB_URL, LINKEDIN_URL } from '../../../../util/consts';
+import { GITHUB_URL, LINKEDIN_URL } from '../../../../../util/consts';
 import Icon from './Icon';
 import classes from './Icons.module.css';
 
