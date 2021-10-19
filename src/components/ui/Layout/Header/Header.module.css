@@ -19,3 +19,9 @@
   margin: 0;
   color: #fff;
 }
+
+.header__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

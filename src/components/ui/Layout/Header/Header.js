@@ -2,6 +2,7 @@ import classes from './Header.module.css';
 import HeaderNav from './HeaderNav';
 import MenuButton from './MenuButton';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Icons from './Icons';
 
 const Header = (props) => {
   return (
@@ -9,8 +10,11 @@ const Header = (props) => {
       <AnchorLink href='#top' offset='90' className={classes['header__link']}>
         <h1 className={classes['header__title']}>Portfolio</h1>
       </AnchorLink>
-      <HeaderNav />
-      <MenuButton onSideMenuToggle={props.onSideMenuToggle} />
+      <div className={classes['header__items']}>
+        <Icons />
+        <HeaderNav />
+        <MenuButton onSideMenuToggle={props.onSideMenuToggle} />
+      </div>
     </header>
   );
 };
