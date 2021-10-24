@@ -23,6 +23,14 @@
   font-size: 3rem;
 }
 
+.card__type {
+  font-weight: bold;
+  color: #ff683a;
+  background-color: #fff;
+  padding: 0.3rem;
+  margin: 0.3rem 0;
+}
+
 .card__info {
   background-color: #fff;
   color: #ff683a;
