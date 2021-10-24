@@ -24,6 +24,9 @@ export const EXPRESS = 'Express';
 export const GRAPHQL = 'Graphql';
 export const SOCKET_IO = 'Socket.IO';
 
+export const SEQUELIZE = 'Sequelize';
+
+export const MONGO_DB = 'mongo DB';
 export const SQL_SERVER = 'SQL Server';
 export const POSTGRE_SQL = 'PostgreSQL';
 export const ORACLE_DB = 'Oracle DB';
@@ -36,6 +39,7 @@ export const DOCKER = 'Docker';
 export const TOMCAT = 'Tomcat';
 export const AWS = 'AWS';
 export const FIREBASE = 'Firebase';
+export const HEROKU = 'Heroku';
 
 export const VBA = 'VBA';
 
