@@ -85,6 +85,11 @@ const INFRA_DATA = [
     rate: '☆☆☆',
   },
   {
+    title: 'NGINX',
+    iconClassName: 'fas fa-server',
+    rate: '☆☆☆',
+  },
+  {
     title: 'Firebase',
     iconClassName: 'fas fa-server',
     rate: '☆☆☆',
