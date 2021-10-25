@@ -16,6 +16,7 @@ import {
   MONGO_DB,
   HEROKU,
   SEQUELIZE,
+  NGINX,
 } from '../../util/consts';
 
 const PROJECTS = [
@@ -32,6 +33,7 @@ const PROJECTS = [
       SOCKET_IO,
       SEQUELIZE,
       POSTGRE_SQL,
+      NGINX,
       DOCKER,
       AWS,
       GIT,

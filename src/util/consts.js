@@ -36,6 +36,7 @@ export const GIT = 'Git';
 export const GITHUB = 'GitHub';
 
 export const DOCKER = 'Docker';
+export const NGINX = 'NGINX';
 export const TOMCAT = 'Tomcat';
 export const AWS = 'AWS';
 export const FIREBASE = 'Firebase';
