@@ -2,34 +2,36 @@ import SectionTitle from '../sectionTitle/SectionTitle';
 import Item from './item/Item';
 import classes from './Toolset.module.css';
 
+import {AWS, BITBUCKET, CSS3, DOCKER, FIREBASE, GIT, GITHUB, HTML5, JAVA, JAVA_SCRIPT, J_QUERY, MY_SQL, NGINX, NODE_JS, ORACLE_DB, PHP, POSTGRE_SQL, REACT, SQL_SERVER, TYPE_SCRIPT, WORDPRESS}from '../../util/consts'
+
 const FRONT_DATA = [
   {
-    title: 'React.js',
+    title: REACT,
     iconClassName: 'fab fa-react',
     rate: '☆☆☆☆',
   },
   {
-    title: 'JavaScript',
+    title: JAVA_SCRIPT,
     iconClassName: 'fab fa-js-square',
     rate: '☆☆☆',
   },
   {
-    title: 'TypeScript',
+    title: TYPE_SCRIPT,
     iconClassName: 'fab fa-js',
     rate: '☆☆☆',
   },
   {
-    title: 'HTML5',
+    title: HTML5,
     iconClassName: 'fab fa-html5',
     rate: '☆☆☆☆☆',
   },
   {
-    title: 'CSS3',
+    title: CSS3,
     iconClassName: 'fab fa-css3-alt',
     rate: '☆☆☆☆☆',
   },
   {
-    title: 'jQuery',
+    title: J_QUERY,
     iconClassName: 'fab fa-js',
     rate: '☆☆☆',
   },
@@ -37,32 +39,42 @@ const FRONT_DATA = [
 
 const BACK_DATA = [
   {
-    title: 'Node.js',
+    title: NODE_JS,
     iconClassName: 'fab fa-node',
     rate: '☆☆☆☆',
   },
   {
-    title: 'PostgreSQL',
+    title: WORDPRESS,
+    iconClassName: 'fab fa-wordpress',
+    rate: '☆☆☆☆'
+  },
+  {
+    title: PHP,
+    iconClassName: 'fab fa-php',
+    rate: '☆☆☆'
+  },
+  {
+    title: POSTGRE_SQL,
     iconClassName: 'fas fa-database',
     rate: '☆☆☆☆',
   },
   {
-    title: 'MySQL',
+    title: MY_SQL,
     iconClassName: 'fas fa-database',
     rate: '☆☆☆☆',
   },
   {
-    title: 'Oracle Database',
+    title: ORACLE_DB,
     iconClassName: 'fas fa-database',
     rate: '☆☆☆☆',
   },
   {
-    title: 'SQL Server',
+    title: SQL_SERVER,
     iconClassName: 'fas fa-database',
     rate: '☆☆☆☆',
   },
   {
-    title: 'Java',
+    title: JAVA,
     iconClassName: 'fab fa-java',
     rate: '☆☆☆☆☆',
   },
@@ -75,34 +87,39 @@ const BACK_DATA = [
 
 const INFRA_DATA = [
   {
-    title: 'Docker',
+    title: DOCKER,
     iconClassName: 'fab fa-docker',
     rate: '☆☆☆☆',
   },
   {
-    title: 'AWS',
+    title: AWS,
     iconClassName: 'fab fa-aws',
     rate: '☆☆☆',
   },
   {
-    title: 'NGINX',
+    title: NGINX,
     iconClassName: 'fas fa-server',
     rate: '☆☆☆',
   },
   {
-    title: 'Firebase',
+    title: FIREBASE,
     iconClassName: 'fas fa-server',
     rate: '☆☆☆',
   },
   {
-    title: 'Git',
+    title: GIT,
     iconClassName: 'fab fa-git-alt',
-    rate: '☆☆☆',
+    rate: '☆☆☆☆',
   },
   {
-    title: 'GitHub',
+    title: GITHUB,
     iconClassName: 'fab fa-github-square',
-    rate: '☆☆☆',
+    rate: '☆☆☆☆',
+  },
+  {
+    title: BITBUCKET,
+    iconClassName: 'fab fa-bitbucket',
+    rate: '☆☆☆☆',
   },
 ];
 

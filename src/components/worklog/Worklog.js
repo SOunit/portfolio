@@ -1,6 +1,6 @@
-import SectionTitle from '../sectionTitle/SectionTitle';
-import Card from './card/Card';
-import classes from './Worklog.module.css';
+import SectionTitle from "../sectionTitle/SectionTitle";
+import Card from "./card/Card";
+import classes from "./Worklog.module.css";
 
 import {
   CSS3,
@@ -24,17 +24,38 @@ import {
   UNIT_TEST,
   INTEGRATION_TEST,
   SYSTEM_TEST,
-} from '../../util/consts';
+  REACT,
+  NGINX,
+  WORDPRESS
+} from "../../util/consts";
 
 const DATA_LIST = [
   {
-    id: '6',
-    isFront: false,
-    companyName: 'SG Systems Co.Ltd.',
-    companyBusiness: 'Logistics Management System',
+    id: "7",
+    isFront: true,
+    companyName: "Goopter eCommerce Solutions",
+    companyBusiness: "eCommerce",
     jobTitle: SOFTWARE_ENGINEER,
-    term: 'Oct 2020 - Jun 2021 (9 mos)',
-    place: 'Kyoto, Japan',
+    term: "Nov 2021 - Current (1 mos)",
+    place: "Vancouver, Canada",
+    tasks: [
+      BASIC_DESIGN,
+      DETAIL_DESIGN,
+      CODING,
+      UNIT_TEST,
+      INTEGRATION_TEST,
+      SYSTEM_TEST,
+    ],
+    usings: [REACT, WORDPRESS, NGINX, TOMCAT],
+  },
+  {
+    id: "6",
+    isFront: false,
+    companyName: "SG Systems Co.Ltd.",
+    companyBusiness: "Logistics Management System",
+    jobTitle: SOFTWARE_ENGINEER,
+    term: "Oct 2020 - Jun 2021 (9 mos)",
+    place: "Kyoto, Japan",
     tasks: [
       BASIC_DESIGN,
       DETAIL_DESIGN,
@@ -46,12 +67,12 @@ const DATA_LIST = [
     usings: [JAVA, POSTGRE_SQL, TOMCAT],
   },
   {
-    id: '5',
+    id: "5",
     isFront: false,
-    companyName: 'NEC Corporation',
-    companyBusiness: 'Power Monitoring System',
+    companyName: "NEC Corporation",
+    companyBusiness: "Power Monitoring System",
     jobTitle: SOFTWARE_ENGINEER,
-    term: 'Feb 2020 - Sep 2020 (8 mos)',
+    term: "Feb 2020 - Sep 2020 (8 mos)",
     place: OSAKA_JAPAN,
     tasks: [
       BASIC_DESIGN,
@@ -64,23 +85,23 @@ const DATA_LIST = [
     usings: [JAVA, JAVA_SCRIPT, HTML5, CSS3, POSTGRE_SQL, TOMCAT, VBA],
   },
   {
-    id: '4',
+    id: "4",
     isFront: true,
-    companyName: 'Toami Corp.',
-    companyBusiness: 'Homepage update',
+    companyName: "Toami Corp.",
+    companyBusiness: "Homepage update",
     jobTitle: HTML_CODER,
-    term: 'Jan 2020 (1 mos)',
+    term: "Jan 2020 (1 mos)",
     place: OSAKA_JAPAN,
-    tasks: ['Create web pages'],
+    tasks: ["Create web pages"],
     usings: [JAVA_SCRIPT, HTML5, CSS3, J_QUERY, PHP],
   },
   {
-    id: '3',
+    id: "3",
     isFront: false,
-    companyName: 'ITEC Hankyu Hanshin Co.Ltd.',
-    companyBusiness: 'EC services',
+    companyName: "ITEC Hankyu Hanshin Co.Ltd.",
+    companyBusiness: "EC services",
     jobTitle: SOFTWARE_ENGINEER,
-    term: 'Aug 2018 - Dec 2019 (1yr 5mos)',
+    term: "Aug 2018 - Dec 2019 (1yr 5mos)",
     place: OSAKA_JAPAN,
     tasks: [
       BASIC_DESIGN,
@@ -93,35 +114,35 @@ const DATA_LIST = [
     usings: [JAVA, HTML5, CSS3, MY_SQL, TOMCAT],
   },
   {
-    id: '2',
+    id: "2",
     isFront: false,
-    companyName: 'Suzuyo Co.Ltd.',
-    companyBusiness: 'Warehouse Management System',
+    companyName: "Suzuyo Co.Ltd.",
+    companyBusiness: "Warehouse Management System",
     jobTitle: SOFTWARE_ENGINEER,
-    term: 'Mar 2018 - Jul 2018 (5mos)',
+    term: "Mar 2018 - Jul 2018 (5mos)",
     place: OSAKA_JAPAN,
     tasks: [BASIC_DESIGN, DETAIL_DESIGN, CODING, UNIT_TEST, INTEGRATION_TEST],
     usings: [JAVA, ORACLE_DB, TOMCAT],
   },
   {
-    id: '1',
+    id: "1",
     isFront: false,
-    companyName: 'Business Brain Showa-ota Inc.',
-    companyBusiness: 'Accounting Management System',
+    companyName: "Business Brain Showa-ota Inc.",
+    companyBusiness: "Accounting Management System",
     jobTitle: SOFTWARE_ENGINEER,
-    term: 'Sept 2017 - Sept 2018 (1 yr)',
+    term: "Sept 2017 - Sept 2018 (1 yr)",
     place: OSAKA_JAPAN,
     tasks: [DETAIL_DESIGN, CODING, UNIT_TEST],
-    usings: [JAVA, 'Servlets / JSP', SQL_SERVER, TOMCAT, VBA],
+    usings: [JAVA, "Servlets / JSP", SQL_SERVER, TOMCAT, VBA],
   },
 ];
 
 const Worklog = () => {
   const cards = DATA_LIST.map((data) => <Card key={data.id} data={data} />);
   return (
-    <section id='work-log' className={classes['worklog-section']}>
-      <SectionTitle title='Work Log' />
-      <div className={classes['cards']}>{cards}</div>
+    <section id="work-log" className={classes["worklog-section"]}>
+      <SectionTitle title="Work Log" />
+      <div className={classes["cards"]}>{cards}</div>
     </section>
   );
 };
