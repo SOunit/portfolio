@@ -46,7 +46,7 @@ const DATA_LIST = [
       INTEGRATION_TEST,
       SYSTEM_TEST,
     ],
-    usings: [REACT, WORDPRESS, NGINX, TOMCAT],
+    usings: [REACT, WORDPRESS, PHP, MY_SQL, NGINX, TOMCAT],
   },
   {
     id: "6",
