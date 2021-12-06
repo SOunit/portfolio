@@ -59,6 +59,7 @@ export const TOMCAT = 'Tomcat';
 export const AWS = 'AWS';
 export const FIREBASE = 'Firebase';
 export const HEROKU = 'Heroku';
+export const LINUX = 'Linux';
 
 // offset
 export const OFFSET_WORK_LOG = '75';

@@ -2,7 +2,7 @@ import SectionTitle from '../sectionTitle/SectionTitle';
 import Item from './item/Item';
 import classes from './Toolset.module.css';
 
-import {AWS, BITBUCKET, CSS3, DOCKER, FIREBASE, GIT, GITHUB, HTML5, JAVA, JAVA_SCRIPT, J_QUERY, MY_SQL, NGINX, NODE_JS, ORACLE_DB, PHP, POSTGRE_SQL, REACT, SQL_SERVER, TYPE_SCRIPT, WORDPRESS}from '../../util/consts'
+import {AWS, BITBUCKET, CSS3, DOCKER, FIREBASE, GIT, GITHUB, HTML5, JAVA, JAVA_SCRIPT, J_QUERY, LINUX, MY_SQL, NGINX, NODE_JS, ORACLE_DB, PHP, POSTGRE_SQL, REACT, SQL_SERVER, TYPE_SCRIPT, WORDPRESS}from '../../util/consts'
 
 const FRONT_DATA = [
   {
@@ -94,6 +94,11 @@ const INFRA_DATA = [
   {
     title: AWS,
     iconClassName: 'fab fa-aws',
+    rate: '☆☆☆',
+  },
+  {
+    title: LINUX,
+    iconClassName: 'fab fa-linux',
     rate: '☆☆☆',
   },
   {

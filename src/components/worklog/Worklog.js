@@ -26,7 +26,8 @@ import {
   SYSTEM_TEST,
   REACT,
   NGINX,
-  WORDPRESS
+  WORDPRESS,
+  LINUX
 } from "../../util/consts";
 
 const DATA_LIST = [
@@ -46,7 +47,7 @@ const DATA_LIST = [
       INTEGRATION_TEST,
       SYSTEM_TEST,
     ],
-    usings: [REACT, WORDPRESS, PHP, MY_SQL, NGINX, TOMCAT],
+    usings: [REACT, WORDPRESS, PHP, MY_SQL, NGINX, TOMCAT, LINUX],
   },
   {
     id: "6",
