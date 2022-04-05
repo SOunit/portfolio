@@ -20,7 +20,7 @@ import {
   GOLANG,
   EXPO,
   MONGOOSE,
-} from "../../util/constants";
+} from "../util/constants";
 
 export const PROJECTS = [
   {

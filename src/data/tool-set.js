@@ -2,13 +2,13 @@ import {
   ATOMIC_DESIGN,
   AWS,
   BITBUCKET,
+  CLEAN_ARCHITECTURE,
   CSS3,
   DOCKER,
   DOMAIN_DRIVEN_DESIGN,
   FIREBASE,
   GIT,
   GITHUB,
-  GOLANG,
   HTML5,
   JAVA,
   JAVA_SCRIPT,
@@ -23,8 +23,9 @@ import {
   REACT,
   SQL_SERVER,
   TYPE_SCRIPT,
+  WEB_PACK,
   WORDPRESS,
-} from "../../util/constants";
+} from "../util/constants";
 
 const FRONT_DATA = [
   {
@@ -41,6 +42,16 @@ const FRONT_DATA = [
     title: TYPE_SCRIPT,
     iconClassName: "fab fa-js",
     rate: "☆☆☆",
+  },
+  {
+    title: WEB_PACK,
+    iconClassName: "fas fa-cube",
+    rate: "☆☆☆",
+  },
+  {
+    title: CLEAN_ARCHITECTURE,
+    iconClassName: "fab fa-buromobelexperte",
+    rate: "☆☆☆☆",
   },
   {
     title: ATOMIC_DESIGN,
@@ -68,11 +79,6 @@ const BACK_DATA = [
   {
     title: NODE_JS,
     iconClassName: "fab fa-node",
-    rate: "☆☆☆☆",
-  },
-  {
-    title: GOLANG,
-    iconClassName: "fab fa-google",
     rate: "☆☆☆☆",
   },
   {
