@@ -12,7 +12,7 @@ import {
   GITHUB,
   GRAPHQL,
   SOCKET_IO,
-  POSTGRE_SQL,
+  POSTGRESQL,
   MONGO_DB,
   HEROKU,
   SEQUELIZE,
@@ -23,7 +23,7 @@ import {
   GOLANG,
   EXPO,
   MONGOOSE,
-} from "../../util/consts";
+} from "../../util/constants";
 
 const PROJECTS = [
   {
@@ -39,7 +39,7 @@ const PROJECTS = [
       GRAPHQL,
       SOCKET_IO,
       SEQUELIZE,
-      POSTGRE_SQL,
+      POSTGRESQL,
       NGINX,
       DOCKER,
       AWS,
@@ -94,7 +94,7 @@ const PROJECTS = [
     id: 3,
     iconClasses: "fas fa-user",
     title: "Portfolio",
-    text: "This portfilio site.",
+    text: "This portfolio site.",
     skills: [REACT, FIREBASE],
     githubUrl: "https://github.com/SOunit/portfolio",
     demoUrl: "https://portfolio-fb053.web.app/",
