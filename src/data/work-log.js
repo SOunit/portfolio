@@ -50,7 +50,7 @@ export const DATA_LIST = [
     companyName: "Goopter eCommerce Solutions",
     companyBusiness: "eCommerce",
     jobTitle: REACT_FULL_STACK_DEVELOPER,
-    term: "Nov 2021 - Current (5 mos)",
+    term: "Nov 2021 - Mar 2022 (5 mos)",
     place: "Vancouver, Canada",
     usings: [REACT, WORDPRESS, PHP, MY_SQL, NGINX, LINUX],
   },
