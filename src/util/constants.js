@@ -10,8 +10,8 @@ export const INTEGRATION_TEST = "Integration test";
 export const SYSTEM_TEST = "System test";
 
 // position
-export const JAVA_FULL_STACK_DEVELPER = "Java Full Stack Developer";
-export const REACT_FULL_STACK_DEVELPER = "React Full Stack Developer";
+export const JAVA_FULL_STACK_DEVELOPER = "Java Full Stack Developer";
+export const REACT_FULL_STACK_DEVELOPER = "React Full Stack Developer";
 export const HTML_CODER = "HTML coder";
 
 // front
@@ -54,7 +54,7 @@ export const MONGOOSE = "Mongoose";
 // db
 export const MONGO_DB = "mongo DB";
 export const SQL_SERVER = "SQL Server";
-export const POSTGRE_SQL = "PostgreSQL";
+export const POSTGRESQL = "PostgreSQL";
 export const ORACLE_DB = "Oracle DB";
 export const MY_SQL = "MySQL";
 
