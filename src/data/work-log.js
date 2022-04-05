@@ -19,13 +19,12 @@ import {
   WORDPRESS,
   LINUX,
   REACT_FULL_STACK_DEVELOPER,
-  ECHO,
   DOCKER,
   REACT_NATIVE,
   TYPE_SCRIPT,
   DOMAIN_DRIVEN_DESIGN,
   ATOMIC_DESIGN,
-} from "../../util/constants";
+} from "../util/constants";
 
 export const DATA_LIST = [
   {
@@ -39,7 +38,6 @@ export const DATA_LIST = [
     usings: [
       REACT_NATIVE,
       TYPE_SCRIPT,
-      ECHO,
       DOCKER,
       DOMAIN_DRIVEN_DESIGN,
       ATOMIC_DESIGN,

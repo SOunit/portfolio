@@ -20,6 +20,7 @@ export const CSS3 = "CSS3";
 export const JAVA_SCRIPT = "JavaScript";
 export const TYPE_SCRIPT = "TypeScript";
 export const J_QUERY = "jQuery";
+export const WEB_PACK = "webpack";
 
 // front framework
 export const REACT = "React.js";
@@ -27,6 +28,7 @@ export const REACT_NATIVE = "React Native";
 
 // front design
 export const ATOMIC_DESIGN = "Atomic design";
+export const CLEAN_ARCHITECTURE = "Clean Architecture";
 
 // back
 export const GOLANG = "Golang";
