@@ -1,0 +1,10 @@
+.worklog-section {
+  background-color: #eeeeee;
+  padding: 0.2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

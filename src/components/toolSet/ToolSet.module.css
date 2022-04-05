@@ -1,0 +1,16 @@
+.tools-title {
+  border-bottom: 1px solid #973619;
+  font-size: 0.9rem;
+  margin: 0 auto 0.5rem auto;
+  color: #973619;
+  font-weight: normal;
+  width: fit-content;
+}
+
+.toolset-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto 3rem auto;
+}
