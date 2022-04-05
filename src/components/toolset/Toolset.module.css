@@ -7,7 +7,7 @@
   width: fit-content;
 }
 
-.toolset-items {
+.tool-set-items {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

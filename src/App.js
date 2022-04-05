@@ -1,15 +1,15 @@
-import SideProjects from './components/sideProjects/SideProjects';
-import Toolset from './components/toolset/Toolset';
-import Layout from './components/ui/Layout/Layout';
-import Welcome from './components/welcome/Welcome';
-import Worklog from './components/worklog/Worklog';
+import SideProjects from "./components/sideProjects/SideProjects";
+import ToolSet from "./components/toolSet/ToolSet";
+import Layout from "./components/ui/Layout/Layout";
+import Welcome from "./components/welcome/Welcome";
+import WorkLog from "./components/workLog/WorkLog";
 
 function App() {
   return (
     <Layout>
       <Welcome />
-      <Worklog />
-      <Toolset />
+      <WorkLog />
+      <ToolSet />
       <SideProjects />
     </Layout>
   );
