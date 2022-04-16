@@ -44,8 +44,7 @@ export const PROJECTS = [
       GITHUB,
     ],
     githubUrl: "https://github.com/SOunit/book_link",
-    demoUrl:
-      "http://booklink-env.eba-gkg6bpmv.ca-central-1.elasticbeanstalk.com/login",
+    demoUrl: "https://book-link.link/",
     personal: true,
   },
   {
