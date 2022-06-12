@@ -9,12 +9,14 @@ import {
 } from "../../../../util/constants";
 
 const SideMenu = (props) => {
+  const { onSideMenuClose, isOpen } = props;
+
   return (
     <Fragment>
-      {props.isOpen && <Backdrop onSideMenuClose={props.onSideMenuClose} />}
+      {isOpen && <Backdrop onSideMenuClose={onSideMenuClose} />}
       <nav
         className={`${classes["side-menu"]} ${
-          props.isOpen ? classes["side-menu--open"] : ""
+          isOpen ? classes["side-menu--open"] : ""
         }`}
       >
         <ul className={classes["side-menu__items"]}>
@@ -22,6 +24,7 @@ const SideMenu = (props) => {
             href="#work-log"
             offset={OFFSET_WORK_LOG}
             className={classes["side-menu__link"]}
+            onClick={onSideMenuClose}
           >
             <li className={classes["side-menu__item"]}>Work Log</li>
           </AnchorLink>
@@ -30,13 +33,15 @@ const SideMenu = (props) => {
             href="#tool-set"
             offset={OFFSET_TOOL_SET}
             className={classes["side-menu__link"]}
+            onClick={onSideMenuClose}
           >
-            <li className={classes["side-menu__item"]}>Toolset</li>
+            <li className={classes["side-menu__item"]}>Tool Set</li>
           </AnchorLink>
           <AnchorLink
             href="#side-projects"
             offset={OFFSET_SIDE_PROJECTS}
             className={classes["side-menu__link"]}
+            onClick={onSideMenuClose}
           >
             <li className={classes["side-menu__item"]}>Side Projects</li>
           </AnchorLink>

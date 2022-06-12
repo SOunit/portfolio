@@ -17,7 +17,7 @@ const ToolSet = () => {
 
   return (
     <section id="tool-set">
-      <SectionTitle title="ToolSet" />
+      <SectionTitle title="Tool Set" />
       <h3 className={classes["tools-title"]}>Frontend</h3>
       <div className={classes["tool-set-items"]}>{frontItems}</div>
 

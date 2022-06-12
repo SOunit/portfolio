@@ -22,7 +22,7 @@ const HeaderNav = () => {
           href="#tool-set"
           offset={OFFSET_TOOL_SET}
         >
-          Toolset
+          Tool Set
         </AnchorLink>
         <AnchorLink
           className={classes["nav-item"]}

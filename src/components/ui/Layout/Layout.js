@@ -1,7 +1,7 @@
-import { Fragment, useState } from 'react';
-import Header from './Header/Header';
-import classes from './Layout.module.css';
-import SideMenu from './SideMenu/SideMenu';
+import { Fragment, useState } from "react";
+import Header from "./Header/Header";
+import classes from "./Layout.module.css";
+import SideMenu from "./SideMenu/SideMenu";
 
 const Layout = (props) => {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
@@ -17,7 +17,7 @@ const Layout = (props) => {
   return (
     <Fragment>
       <Header onSideMenuToggle={sideMenuToggleHandler} />
-      <main className={classes['main']}>
+      <main className={classes["main"]}>
         <SideMenu
           onSideMenuClose={sideMenuCloseHandler}
           isOpen={isSideMenuOpen}
