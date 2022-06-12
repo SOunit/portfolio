@@ -27,7 +27,7 @@ const SideMenu = (props) => {
           </AnchorLink>
 
           <AnchorLink
-            href="#toolset"
+            href="#tool-set"
             offset={OFFSET_TOOL_SET}
             className={classes["side-menu__link"]}
           >
