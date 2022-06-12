@@ -14,6 +14,7 @@ const ToolSet = () => {
   const infraItems = INFRA_DATA.map((data) => (
     <Item key={data.title} data={data} />
   ));
+
   return (
     <section id="tool-set">
       <SectionTitle title="ToolSet" />
