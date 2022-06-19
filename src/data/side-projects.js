@@ -44,7 +44,7 @@ export const PROJECTS = [
       GITHUB,
     ],
     githubUrl: "https://github.com/SOunit/book_link",
-    demoUrl: "https://book-link.link/",
+    demoUrl: "https://book-link-front.web.app/",
     personal: true,
   },
   {
