@@ -63,7 +63,7 @@ export const PROJECTS = [
       HEROKU,
     ],
     githubUrl: "https://github.com/SOunit/job_search_app_front",
-    demoUrl: "https://job-search-app-front.web.app/",
+    demoUrl: "https://job-search-app-46823.web.app/",
     personal: false,
   },
   {
@@ -72,8 +72,9 @@ export const PROJECTS = [
     title: "Mobile App",
     text: "Stack Overflow like mobile app",
     skills: [REACT_NATIVE, GOLANG, MONGOOSE, MONGO_DB, EXPO],
-    githubUrl: "",
-    demoUrl: "",
+    githubUrl: "https://github.com/sounit-organization/canada_stack_overflow",
+    demoUrl:
+      "https://play.google.com/store/apps/details?id=com.yurtyurt.canada_stack_overflow",
     personal: false,
   },
   {
