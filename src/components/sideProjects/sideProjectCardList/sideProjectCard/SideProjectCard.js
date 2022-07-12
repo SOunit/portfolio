@@ -1,7 +1,7 @@
 import classes from "./SideProjectCard.module.css";
 import LinkIcons from "./linkIcons/LinkIcons";
-import TopIcon from "../topIcon/TopIcon";
-import ProjectTypeLabel from "../projectTypeLabel/ProjectTypeLabel";
+import ProjectTypeLabel from "./projectTypeLabel/ProjectTypeLabel";
+import TopIcon from "./topIcon/TopIcon";
 
 const SideProjectCard = (props) => {
   const { data } = props;

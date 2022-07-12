@@ -1,10 +1,10 @@
-import SectionTitle from "../sectionTitle/SectionTitle";
 import Card from "./card/Card";
 import classes from "./WorkLog.module.css";
 
 import { DATA_LIST } from "../../data/work-log";
 import FrontIcon from "./icon/FrontIcon";
 import BackIcon from "./icon/BackIcon";
+import SectionTitle from "../common/sectionTitle/SectionTitle";
 
 const WorkLog = () => {
   const workLogCards = DATA_LIST.map((data) => (
