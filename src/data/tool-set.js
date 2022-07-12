@@ -70,7 +70,7 @@ const FRONT_DATA = [
   },
   {
     title: TAILWIND_CSS,
-    iconClassName: "fab fa-js",
+    iconClassName: "fab fa-css3-alt",
   },
   {
     title: REACT_NATIVE,
