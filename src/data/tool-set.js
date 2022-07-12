@@ -30,7 +30,6 @@ import {
   AWS_API_GATEWAY,
   AWS_LAMBDA,
   EXPRESS,
-  GOLANG,
   GRAPHQL,
   JAVA,
   NODE_JS,
