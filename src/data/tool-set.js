@@ -117,7 +117,27 @@ const BACK_DATA = [
     iconClassName: "fab fa-node",
   },
   {
+    title: EXPRESS,
+    iconClassName: "fab fa-node",
+  },
+  {
+    title: SOCKET_IO,
+    iconClassName: "fab fa-node",
+  },
+  {
+    title: GRAPHQL,
+    iconClassName: "fab fa-node",
+  },
+  {
     title: MONGO_DB,
+    iconClassName: "fas fa-database",
+  },
+  {
+    title: MONGOOSE,
+    iconClassName: "fas fa-database",
+  },
+  {
+    title: SEQUELIZE,
     iconClassName: "fas fa-database",
   },
   {
@@ -169,6 +189,18 @@ const INFRA_DATA = [
   },
   {
     title: AWS,
+    iconClassName: "fab fa-aws",
+  },
+  {
+    title: SERVERLESS_API,
+    iconClassName: "fab fa-aws",
+  },
+  {
+    title: AWS_LAMBDA,
+    iconClassName: "fab fa-aws",
+  },
+  {
+    title: AWS_API_GATEWAY,
     iconClassName: "fab fa-aws",
   },
   {
