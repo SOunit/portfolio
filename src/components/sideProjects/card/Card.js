@@ -1,58 +1,31 @@
-import classes from './Card.module.css';
+import classes from "./Card.module.css";
+import LinkIcons from "./linkIcons/LinkIcons";
 
 const Card = (props) => {
-  const skills = props.data.skills.map((skill) => (
-    <div key={`${props.data.id}${skill}`} className={classes['card__skill']}>
+  const { data } = props;
+  const { skills, id, iconClasses, personal, title, text, githubUrl, demoUrl } =
+    data;
+
+  const skillCardList = skills.map((skill) => (
+    <div key={`${id}${skill}`} className={classes["card__skill"]}>
       {skill}
     </div>
   ));
 
-  let githubUrl = '';
-  if (props.data.githubUrl) {
-    githubUrl = (
-      <a
-        href={props.data.githubUrl}
-        target='_blank'
-        rel='noopener noreferrer'
-        className={classes['card__link']}
-      >
-        <i className={`fab fa-github ${classes['github-icon']}`}></i>
-      </a>
-    );
-  }
-  let demoUrl = '';
-  if (props.data.demoUrl) {
-    demoUrl = (
-      <a
-        href={props.data.demoUrl}
-        target='_blank'
-        rel='noopener noreferrer'
-        className={classes['card__link']}
-      >
-        <i className={`fas fa-search ${classes['github-icon']}`}></i>
-      </a>
-    );
-  }
-
   return (
-    <div className={classes['card']}>
-      <div className={classes['icon-container']}>
-        <i className={`${props.data.iconClasses} ${classes['card__icon']}`}></i>
+    <div className={classes["card"]}>
+      <div className={classes["icon-container"]}>
+        <i className={`${iconClasses} ${classes["card__icon"]}`}></i>
       </div>
-      <p className={classes['card__type']}>
-        {props.data.personal ? 'Personal' : 'Group'}
-      </p>
-      <div className={classes['card__info']}>
-        <h2 className={classes['card__title']}>{props.data.title}</h2>
-        <p className={classes['card__text']}>{props.data.text}</p>
-        <div className={classes['card__skills']}>{skills}</div>
+      <p className={classes["card__type"]}>{personal ? "Personal" : "Group"}</p>
+      <div className={classes["card__info"]}>
+        <h2 className={classes["card__title"]}>{title}</h2>
+        <p className={classes["card__text"]}>{text}</p>
+        <div className={classes["card__skills"]}>{skillCardList}</div>
       </div>
 
-      {(props.data.githubUrl || props.data.demoUrl) && (
-        <div className={classes['card__links']}>
-          {githubUrl}
-          {demoUrl}
-        </div>
+      {(githubUrl || demoUrl) && (
+        <LinkIcons githubUrl={githubUrl} demoUrl={demoUrl} />
       )}
     </div>
   );

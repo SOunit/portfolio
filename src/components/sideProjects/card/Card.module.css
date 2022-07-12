@@ -64,20 +64,6 @@
   border-radius: 5px;
 }
 
-.card__links {
-  background-color: #ff683a;
-  padding: 0.3rem;
-  margin: 0.5rem 0;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.github-icon {
-  color: #fff;
-  font-size: 1.5rem;
-}
-
 @media (min-width: 40rem) {
   .card {
     width: 45%;
