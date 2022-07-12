@@ -1,30 +1,35 @@
 import {
+  ATOMIC_DESIGN,
   CSS3,
   HTML5,
-  HTML_CODER,
-  JAVA,
   JAVA_SCRIPT,
   J_QUERY,
-  MY_SQL,
-  ORACLE_DB,
-  OSAKA_JAPAN,
-  PHP,
-  POSTGRESQL,
-  JAVA_FULL_STACK_DEVELOPER,
-  SQL_SERVER,
-  TOMCAT,
-  VBA,
   REACT,
-  NGINX,
-  WORDPRESS,
-  LINUX,
-  REACT_FULL_STACK_DEVELOPER,
-  DOCKER,
   REACT_NATIVE,
   TYPE_SCRIPT,
-  DOMAIN_DRIVEN_DESIGN,
-  ATOMIC_DESIGN,
-} from "../util/constants";
+} from "../constants/front.constants";
+import {
+  DOCKER,
+  EXPO,
+  LINUX,
+  NGINX,
+  TOMCAT,
+} from "../constants/infra.constants";
+import { JAVA, PHP, VBA } from "../constants/back.constants";
+import {
+  MY_SQL,
+  ORACLE_DB,
+  POSTGRESQL,
+  SQL_SERVER,
+} from "../constants/db.constants";
+import { DOMAIN_DRIVEN_DESIGN } from "../constants/fullstack.constants";
+import { WORDPRESS } from "../constants/cms.constants";
+import {
+  HTML_CODER,
+  JAVA_FULL_STACK_DEVELOPER,
+  REACT_FULL_STACK_DEVELOPER,
+} from "../constants/positionTitle.constants";
+import { OSAKA_JAPAN } from "../constants/place.constants";
 
 export const DATA_LIST = [
   {
@@ -37,6 +42,7 @@ export const DATA_LIST = [
     place: "Kusatsu, Japan",
     usings: [
       REACT_NATIVE,
+      EXPO,
       TYPE_SCRIPT,
       DOCKER,
       DOMAIN_DRIVEN_DESIGN,

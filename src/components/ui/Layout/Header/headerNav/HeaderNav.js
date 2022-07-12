@@ -4,7 +4,7 @@ import {
   OFFSET_SIDE_PROJECTS,
   OFFSET_TOOL_SET,
   OFFSET_WORK_LOG,
-} from "../../../../../util/constants";
+} from "../../../../../constants/offset.constants";
 
 const HeaderNav = () => {
   return (

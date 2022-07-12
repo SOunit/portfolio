@@ -1,77 +1,113 @@
 import {
   ATOMIC_DESIGN,
-  AWS,
-  BITBUCKET,
   CLEAN_ARCHITECTURE,
   CSS3,
+  HTML5,
+  JAVA_SCRIPT,
+  J_QUERY,
+  REACT,
+  REACT_NATIVE,
+  REACT_QUERY,
+  REACT_REDUX_TOOLKIT,
+  TAILWIND_CSS,
+  TYPE_SCRIPT,
+  WEB_PACK,
+} from "../constants/front.constants";
+import {
+  AWS,
+  BITBUCKET,
   DOCKER,
-  DOMAIN_DRIVEN_DESIGN,
+  EXPO,
   FIREBASE,
   GIT,
   GITHUB,
-  HTML5,
-  JAVA,
-  JAVA_SCRIPT,
-  J_QUERY,
+  HEROKU,
   LINUX,
-  MY_SQL,
   NGINX,
+  SERVERLESS_API,
+} from "../constants/infra.constants";
+import {
+  AWS_API_GATEWAY,
+  AWS_LAMBDA,
+  EXPRESS,
+  GOLANG,
+  GRAPHQL,
+  JAVA,
   NODE_JS,
-  ORACLE_DB,
   PHP,
+  SOCKET_IO,
+} from "../constants/back.constants";
+import {
+  MONGOOSE,
+  MONGO_DB,
+  MY_SQL,
+  ORACLE_DB,
   POSTGRESQL,
-  REACT,
+  SEQUELIZE,
   SQL_SERVER,
-  TYPE_SCRIPT,
-  WEB_PACK,
-  WORDPRESS,
-} from "../util/constants";
+} from "../constants/db.constants";
+import { DOMAIN_DRIVEN_DESIGN } from "../constants/fullstack.constants";
+import { WORDPRESS } from "../constants/cms.constants";
 
 const FRONT_DATA = [
   {
     title: REACT,
     iconClassName: "fab fa-react",
-    rate: "☆☆☆☆",
+  },
+
+  {
+    title: REACT_REDUX_TOOLKIT,
+    iconClassName: "fab fa-react",
   },
   {
-    title: JAVA_SCRIPT,
-    iconClassName: "fab fa-js-square",
-    rate: "☆☆☆",
+    title: REACT_QUERY,
+    iconClassName: "fab fa-react",
   },
+
   {
     title: TYPE_SCRIPT,
     iconClassName: "fab fa-js",
-    rate: "☆☆☆",
+  },
+  {
+    title: TAILWIND_CSS,
+    iconClassName: "fab fa-js",
+  },
+  {
+    title: REACT_NATIVE,
+    iconClassName: "fab fa-react",
+  },
+  {
+    title: EXPO,
+    iconClassName: "fab fa-react",
   },
   {
     title: WEB_PACK,
     iconClassName: "fas fa-cube",
-    rate: "☆☆☆",
   },
   {
     title: CLEAN_ARCHITECTURE,
     iconClassName: "fab fa-buromobelexperte",
-    rate: "☆☆☆☆",
   },
   {
     title: ATOMIC_DESIGN,
     iconClassName: "fab fa-buromobelexperte",
-    rate: "☆☆☆☆",
+  },
+  {
+    title: JAVA_SCRIPT,
+    iconClassName: "fab fa-js-square",
   },
   {
     title: HTML5,
     iconClassName: "fab fa-html5",
-    rate: "☆☆☆☆☆",
   },
   {
     title: CSS3,
     iconClassName: "fab fa-css3-alt",
-    rate: "☆☆☆☆☆",
   },
+
   {
     title: J_QUERY,
     iconClassName: "fab fa-js",
-    rate: "☆☆☆",
   },
 ];
 
@@ -79,95 +115,85 @@ const BACK_DATA = [
   {
     title: NODE_JS,
     iconClassName: "fab fa-node",
-    rate: "☆☆☆☆",
   },
   {
-    title: DOMAIN_DRIVEN_DESIGN,
-    iconClassName: "fab fa-buromobelexperte",
-    rate: "☆☆☆☆",
-  },
-  {
-    title: WORDPRESS,
-    iconClassName: "fab fa-wordpress",
-    rate: "☆☆☆☆",
-  },
-  {
-    title: PHP,
-    iconClassName: "fab fa-php",
-    rate: "☆☆☆",
+    title: MONGO_DB,
+    iconClassName: "fas fa-database",
   },
   {
     title: POSTGRESQL,
     iconClassName: "fas fa-database",
-    rate: "☆☆☆☆",
   },
   {
     title: MY_SQL,
     iconClassName: "fas fa-database",
-    rate: "☆☆☆☆",
   },
   {
     title: ORACLE_DB,
     iconClassName: "fas fa-database",
-    rate: "☆☆☆☆",
   },
   {
     title: SQL_SERVER,
     iconClassName: "fas fa-database",
-    rate: "☆☆☆☆",
+  },
+  {
+    title: DOMAIN_DRIVEN_DESIGN,
+    iconClassName: "fab fa-buromobelexperte",
   },
   {
     title: JAVA,
     iconClassName: "fab fa-java",
-    rate: "☆☆☆☆☆",
   },
   {
     title: "Seasar(Java MVC framework)",
     iconClassName: "fab fa-java",
-    rate: "☆☆☆☆☆",
+  },
+  {
+    title: WORDPRESS,
+    iconClassName: "fab fa-wordpress",
+  },
+  {
+    title: PHP,
+    iconClassName: "fab fa-php",
   },
 ];
 
 const INFRA_DATA = [
   {
+    title: HEROKU,
+    iconClassName: "fas fa-server",
+  },
+  {
     title: DOCKER,
     iconClassName: "fab fa-docker",
-    rate: "☆☆☆☆",
   },
   {
     title: AWS,
     iconClassName: "fab fa-aws",
-    rate: "☆☆☆",
   },
   {
     title: LINUX,
     iconClassName: "fab fa-linux",
-    rate: "☆☆☆",
   },
   {
     title: NGINX,
     iconClassName: "fas fa-server",
-    rate: "☆☆☆",
   },
   {
     title: FIREBASE,
     iconClassName: "fas fa-server",
-    rate: "☆☆☆",
   },
   {
     title: GIT,
     iconClassName: "fab fa-git-alt",
-    rate: "☆☆☆☆",
   },
   {
     title: GITHUB,
     iconClassName: "fab fa-github-square",
-    rate: "☆☆☆☆",
   },
   {
     title: BITBUCKET,
     iconClassName: "fab fa-bitbucket",
-    rate: "☆☆☆☆",
   },
 ];
 
