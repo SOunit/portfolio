@@ -1,4 +1,4 @@
-import SectionTitle from "../sectionTitle/SectionTitle";
+import SectionTitle from "../common/sectionTitle/SectionTitle";
 import SideProjectCard from "./sideProjectCard/SideProjectCard";
 import classes from "./SideProjects.module.css";
 

@@ -1,5 +1,5 @@
 import classes from "./SideProjectCard.module.css";
-import LinkIcons from "../linkIcons/LinkIcons";
+import LinkIcons from "./linkIcons/LinkIcons";
 import TopIcon from "../topIcon/TopIcon";
 import ProjectTypeLabel from "../projectTypeLabel/ProjectTypeLabel";
 
