@@ -21,7 +21,6 @@ import {
   AWS_API_GATEWAY,
   AWS_LAMBDA,
   EXPRESS,
-  GOLANG,
   GRAPHQL,
   NODE_JS,
   SOCKET_IO,
@@ -51,7 +50,7 @@ export const PROJECTS = [
     ],
     githubUrl: "https://github.com/AyakaYasuda/juno",
     demoUrl: "https://juno-wedding.vercel.app/admin",
-    personal: false,
+    isPersonal: false,
   },
   {
     id: 4,
@@ -69,7 +68,7 @@ export const PROJECTS = [
     ],
     githubUrl: "https://github.com/SOunit/job_search_app_front",
     demoUrl: "https://job-search-app-46823.web.app/",
-    personal: false,
+    isPersonal: false,
   },
   {
     id: 1,
@@ -93,7 +92,7 @@ export const PROJECTS = [
     ],
     githubUrl: "https://github.com/SOunit/book_link",
     demoUrl: "https://book-link-front.web.app/",
-    personal: true,
+    isPersonal: true,
   },
   {
     id: 5,
@@ -104,7 +103,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/sounit-organization/canada_stack_overflow",
     demoUrl:
       "https://play.google.com/store/apps/details?id=com.yurtyurt.canada_stack_overflow",
-    personal: false,
+    isPersonal: false,
   },
   {
     id: 2,
@@ -114,6 +113,6 @@ export const PROJECTS = [
     skills: [REACT, FIREBASE],
     githubUrl: "https://github.com/SOunit/quiz_rpg",
     demoUrl: "https://quiz-rpg.web.app/",
-    personal: false,
+    isPersonal: false,
   },
 ];

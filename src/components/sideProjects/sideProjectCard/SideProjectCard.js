@@ -1,11 +1,20 @@
 import classes from "./SideProjectCard.module.css";
 import LinkIcons from "../linkIcons/LinkIcons";
 import TopIcon from "../topIcon/TopIcon";
+import ProjectTypeLabel from "../projectTypeLabel/ProjectTypeLabel";
 
 const SideProjectCard = (props) => {
   const { data } = props;
-  const { skills, id, iconClasses, personal, title, text, githubUrl, demoUrl } =
-    data;
+  const {
+    skills,
+    id,
+    iconClasses,
+    isPersonal,
+    title,
+    text,
+    githubUrl,
+    demoUrl,
+  } = data;
 
   const skillCardList = skills.map((skill) => (
     <div key={`${id}${skill}`} className={classes["card__skill"]}>
@@ -16,7 +25,7 @@ const SideProjectCard = (props) => {
   return (
     <div className={classes["card"]}>
       <TopIcon iconClasses={iconClasses} />
-      <p className={classes["card__type"]}>{personal ? "Personal" : "Group"}</p>
+      <ProjectTypeLabel isPersonal={isPersonal} />
       <div className={classes["card__info"]}>
         <h2 className={classes["card__title"]}>{title}</h2>
         <p className={classes["card__text"]}>{text}</p>
