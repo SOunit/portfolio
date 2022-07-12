@@ -1,7 +1,8 @@
-import classes from "./Card.module.css";
-import LinkIcons from "./linkIcons/LinkIcons";
+import classes from "./SideProjectCard.module.css";
+import LinkIcons from "../linkIcons/LinkIcons";
+import TopIcon from "../topIcon/TopIcon";
 
-const Card = (props) => {
+const SideProjectCard = (props) => {
   const { data } = props;
   const { skills, id, iconClasses, personal, title, text, githubUrl, demoUrl } =
     data;
@@ -14,9 +15,7 @@ const Card = (props) => {
 
   return (
     <div className={classes["card"]}>
-      <div className={classes["icon-container"]}>
-        <i className={`${iconClasses} ${classes["card__icon"]}`}></i>
-      </div>
+      <TopIcon iconClasses={iconClasses} />
       <p className={classes["card__type"]}>{personal ? "Personal" : "Group"}</p>
       <div className={classes["card__info"]}>
         <h2 className={classes["card__title"]}>{title}</h2>
@@ -31,4 +30,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default SideProjectCard;

@@ -1,19 +1,20 @@
 import SectionTitle from "../sectionTitle/SectionTitle";
-import Card from "./card/Card";
+import SideProjectCard from "./sideProjectCard/SideProjectCard";
 import classes from "./SideProjects.module.css";
 
 import { PROJECTS } from "../../data/side-projects";
 
-const SideProject = () => {
-  const cards = PROJECTS.map((project) => (
-    <Card key={project.id} data={project} />
+const SideProjects = () => {
+  const sideProjectCardList = PROJECTS.map((project) => (
+    <SideProjectCard key={project.id} data={project} />
   ));
+
   return (
     <section id="side-projects" className={classes["side-projects"]}>
       <SectionTitle title="Side Projects" />
-      <div className={classes["cards"]}>{cards}</div>
+      <div className={classes["cards"]}>{sideProjectCardList}</div>
     </section>
   );
 };
 
-export default SideProject;
+export default SideProjects;

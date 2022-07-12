@@ -1,0 +1,15 @@
+.icon-container {
+  width: 80%;
+  background-color: #ff7f58;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1rem auto;
+}
+
+.card__icon {
+  font-size: 3rem;
+}
