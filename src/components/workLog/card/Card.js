@@ -1,14 +1,14 @@
 import classes from "./Card.module.css";
 
 const Card = (props) => {
-  const usings = props.data.usings.map((using) => (
+  const skills = props.data.skills.map((skill) => (
     <div
-      key={`${props.data.id}_${using}`}
+      key={`${props.data.id}_${skill}`}
       className={`${classes["card__skill"]} ${
         props.data.isFront ? classes["card__skill--front"] : ""
       }`}
     >
-      {using}
+      {skill}
     </div>
   ));
 
@@ -34,7 +34,7 @@ const Card = (props) => {
         <div>{props.data.place}</div>
       </div>
       <div>Skills</div>
-      <div className={classes["card__skills"]}>{usings}</div>
+      <div className={classes["card__skills"]}>{skills}</div>
     </div>
   );
 };

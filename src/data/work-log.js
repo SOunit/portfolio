@@ -40,7 +40,7 @@ export const DATA_LIST = [
     jobTitle: "React Native Frontend Developer",
     term: "Feb 2022 - Apr 2022 (2 mos)",
     place: "Kusatsu, Japan",
-    usings: [
+    skills: [
       REACT_NATIVE,
       EXPO,
       TYPE_SCRIPT,
@@ -58,7 +58,7 @@ export const DATA_LIST = [
     jobTitle: REACT_FULL_STACK_DEVELOPER,
     term: "Nov 2021 - Mar 2022 (5 mos)",
     place: "Vancouver, Canada",
-    usings: [REACT, WORDPRESS, PHP, MY_SQL, NGINX, LINUX],
+    skills: [REACT, WORDPRESS, PHP, MY_SQL, NGINX, LINUX],
   },
   {
     id: "6",
@@ -68,7 +68,7 @@ export const DATA_LIST = [
     jobTitle: JAVA_FULL_STACK_DEVELOPER,
     term: "Oct 2020 - Jun 2021 (9 mos)",
     place: "Kyoto, Japan",
-    usings: [JAVA, POSTGRESQL, TOMCAT],
+    skills: [JAVA, POSTGRESQL, TOMCAT],
   },
   {
     id: "5",
@@ -78,7 +78,7 @@ export const DATA_LIST = [
     jobTitle: JAVA_FULL_STACK_DEVELOPER,
     term: "Feb 2020 - Sep 2020 (8 mos)",
     place: OSAKA_JAPAN,
-    usings: [JAVA, JAVA_SCRIPT, HTML5, CSS3, POSTGRESQL, TOMCAT, VBA],
+    skills: [JAVA, JAVA_SCRIPT, HTML5, CSS3, POSTGRESQL, TOMCAT, VBA],
   },
   {
     id: "4",
@@ -88,7 +88,7 @@ export const DATA_LIST = [
     jobTitle: HTML_CODER,
     term: "Jan 2020 (1 mos)",
     place: OSAKA_JAPAN,
-    usings: [JAVA_SCRIPT, J_QUERY, HTML5, CSS3, PHP],
+    skills: [JAVA_SCRIPT, J_QUERY, HTML5, CSS3, PHP],
   },
   {
     id: "3",
@@ -98,7 +98,7 @@ export const DATA_LIST = [
     jobTitle: JAVA_FULL_STACK_DEVELOPER,
     term: "Aug 2018 - Dec 2019 (1yr 5mos)",
     place: OSAKA_JAPAN,
-    usings: [JAVA, HTML5, CSS3, MY_SQL, TOMCAT],
+    skills: [JAVA, HTML5, CSS3, MY_SQL, TOMCAT],
   },
   {
     id: "2",
@@ -108,7 +108,7 @@ export const DATA_LIST = [
     jobTitle: "Java Backend Developer",
     term: "Mar 2018 - Jul 2018 (5mos)",
     place: OSAKA_JAPAN,
-    usings: [JAVA, ORACLE_DB, TOMCAT],
+    skills: [JAVA, ORACLE_DB, TOMCAT],
   },
   {
     id: "1",
@@ -118,6 +118,6 @@ export const DATA_LIST = [
     jobTitle: JAVA_FULL_STACK_DEVELOPER,
     term: "Sept 2017 - Sept 2018 (1 yr)",
     place: OSAKA_JAPAN,
-    usings: [JAVA, "Servlet / JSP", SQL_SERVER, TOMCAT, VBA],
+    skills: [JAVA, "Servlet / JSP", SQL_SERVER, TOMCAT, VBA],
   },
 ];
