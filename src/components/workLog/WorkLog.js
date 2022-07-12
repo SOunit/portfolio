@@ -9,6 +9,14 @@ const WorkLog = () => {
   return (
     <section id="work-log" className={classes["work-log-section"]}>
       <SectionTitle title="Work Log" />
+      <div className={classes["icons"]}>
+        <div className={`${classes["icon"]} ${classes["icon--front"]}`}>
+          Frontend
+        </div>
+        <div className={`${classes["icon"]} ${classes["icon--back"]}`}>
+          Backend
+        </div>
+      </div>
       <div className={classes["cards"]}>{cards}</div>
     </section>
   );

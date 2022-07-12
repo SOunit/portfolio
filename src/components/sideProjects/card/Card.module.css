@@ -59,8 +59,9 @@
 .card__skill {
   background-color: #ff683a;
   color: white;
-  padding: 0.2rem;
+  padding: 0.5rem;
   margin: 0.2rem;
+  border-radius: 5px;
 }
 
 .card__links {

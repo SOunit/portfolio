@@ -100,7 +100,7 @@ export const PROJECTS = [
     iconClasses: "far fa-building",
     title: "Mobile App",
     text: "Stack Overflow like mobile app",
-    skills: [REACT_NATIVE, GOLANG, MONGOOSE, MONGO_DB, EXPO],
+    skills: [REACT_NATIVE, MONGOOSE, MONGO_DB, EXPO],
     githubUrl: "https://github.com/sounit-organization/canada_stack_overflow",
     demoUrl:
       "https://play.google.com/store/apps/details?id=com.yurtyurt.canada_stack_overflow",
@@ -115,15 +115,5 @@ export const PROJECTS = [
     githubUrl: "https://github.com/SOunit/quiz_rpg",
     demoUrl: "https://quiz-rpg.web.app/",
     personal: false,
-  },
-  {
-    id: 3,
-    iconClasses: "fas fa-user",
-    title: "Portfolio",
-    text: "This portfolio site.",
-    skills: [REACT, FIREBASE],
-    githubUrl: "https://github.com/SOunit/portfolio",
-    demoUrl: "https://portfolio-fb053.web.app/",
-    personal: true,
   },
 ];
