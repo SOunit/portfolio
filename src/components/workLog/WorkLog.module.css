@@ -12,21 +12,5 @@
 .icons {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.icon {
-  border: 3px solid orange;
-  padding: 0.5rem 1rem;
-  margin: 0 1rem 0 1rem;
-}
-
-.icon--front {
-  border-color: #1f1fce;
-  color: #1f1fce;
-}
-
-.icon--back {
-  border-color: #259797;
-  color: #259797;
+  margin-bottom: 1.5rem;
 }

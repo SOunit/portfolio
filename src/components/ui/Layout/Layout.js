@@ -15,7 +15,7 @@ const Layout = (props) => {
   };
 
   return (
-    <Fragment>
+    <>
       <Header onSideMenuToggle={sideMenuToggleHandler} />
       <main className={classes["main"]}>
         <SideMenu
@@ -24,7 +24,7 @@ const Layout = (props) => {
         />
         {props.children}
       </main>
-    </Fragment>
+    </>
   );
 };
 
