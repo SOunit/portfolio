@@ -66,7 +66,7 @@ export const PROJECTS = [
       FIREBASE,
       HEROKU,
     ],
-    githubUrl: "https://github.com/SOunit/job_search_app_front",
+    githubUrl: "https://github.com/sounit-organization/job_search_app_front",
     demoUrl: "https://job-search-app-46823.web.app/",
     isPersonal: false,
   },
