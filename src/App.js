@@ -3,6 +3,7 @@ import Welcome from "./components/welcome/Welcome";
 import WorkLog from "./components/workLog/WorkLog";
 import ToolSet from "./components/toolSet/ToolSet";
 import Layout from "./components/common/ui/Layout/Layout";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <WorkLog />
       <ToolSet />
       <SideProjects />
+      <Contact />
     </Layout>
   );
 }
