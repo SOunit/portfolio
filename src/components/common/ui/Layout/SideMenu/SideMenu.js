@@ -45,6 +45,14 @@ const SideMenu = (props) => {
           >
             <li className={classes["side-menu__item"]}>Side Projects</li>
           </AnchorLink>
+          <AnchorLink
+            href="#contact"
+            offset={OFFSET_SIDE_PROJECTS}
+            className={classes["side-menu__link"]}
+            onClick={onSideMenuClose}
+          >
+            <li className={classes["side-menu__item"]}>contact</li>
+          </AnchorLink>
         </ul>
       </nav>
     </Fragment>

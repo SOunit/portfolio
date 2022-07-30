@@ -31,6 +31,13 @@ const HeaderNav = () => {
         >
           Side Projects
         </AnchorLink>
+        <AnchorLink
+          className={classes["nav-item"]}
+          href="#contact"
+          offset={OFFSET_SIDE_PROJECTS}
+        >
+          Contact
+        </AnchorLink>
       </ul>
     </nav>
   );

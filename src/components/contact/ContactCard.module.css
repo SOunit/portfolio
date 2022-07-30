@@ -1,0 +1,21 @@
+.contact-card {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+  gap: 1rem;
+  border: 3px solid #ff683a;
+  color: #ff683a;
+  background-color: #ffa489;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.contact-card__info {
+  background-color: white;
+  padding: 1rem;
+}
+
+.contact-card__info-icon {
+  margin-right: 0.5rem;
+}
