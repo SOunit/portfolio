@@ -1,6 +1,6 @@
-import classes from "./Icon.module.css";
+import classes from "./HeaderLinkIcon.module.css";
 
-const Icon = (props) => {
+const HeaderLinkIcon = (props) => {
   return (
     <div className={classes["icon-wrapper"]}>
       <a href={props.href} target="_blank" rel="noreferrer">
@@ -10,4 +10,4 @@ const Icon = (props) => {
   );
 };
 
-export default Icon;
+export default HeaderLinkIcon;

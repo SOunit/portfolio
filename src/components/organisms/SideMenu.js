@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import Backdrop from "./Backdrop";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import classes from "./SideMenu.module.css";
 import {
@@ -7,6 +6,7 @@ import {
   OFFSET_TOOL_SET,
   OFFSET_WORK_LOG,
 } from "../../constants/offset.constants";
+import Backdrop from "../atoms/Backdrop";
 
 const SideMenu = (props) => {
   const { onSideMenuClose, isOpen } = props;

@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../atoms/SectionTitle";
 import classes from "./Contact.module.css";
 import ContactCard from "./ContactCard";
 

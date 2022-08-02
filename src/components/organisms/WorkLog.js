@@ -1,8 +1,8 @@
 import { DATA_LIST } from "../../data/work-log";
-import SectionTitle from "./SectionTitle";
 import Card from "../atoms/Card";
 import BackIcon from "../atoms/BackIcon";
 import FrontIcon from "../atoms/FrontIcon";
+import SectionTitle from "../atoms/SectionTitle";
 
 import classes from "./WorkLog.module.css";
 

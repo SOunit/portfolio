@@ -1,4 +1,4 @@
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../atoms/SectionTitle";
 import SideProjectCardList from "./SideProjectCardList";
 import classes from "./SideProjects.module.css";
 

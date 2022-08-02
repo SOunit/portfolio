@@ -1,8 +1,8 @@
-import classes from "./ToolSet.module.css";
-
 import { FRONT_DATA, BACK_DATA, INFRA_DATA } from "../../data/tool-set";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../atoms/SectionTitle";
 import Item from "./Item";
+
+import classes from "./ToolSet.module.css";
 
 const ToolSet = () => {
   const frontItems = FRONT_DATA.map((data) => (
