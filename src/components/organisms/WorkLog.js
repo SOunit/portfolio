@@ -1,14 +1,14 @@
 import { DATA_LIST } from "../../data/work-log";
-import Card from "../atoms/Card";
 import BackIcon from "../atoms/BackIcon";
 import FrontIcon from "../atoms/FrontIcon";
 import SectionTitle from "../atoms/SectionTitle";
+import WorkLogCard from "./WorkLogCard";
 
 import classes from "./WorkLog.module.css";
 
 const WorkLog = () => {
   const workLogCards = DATA_LIST.map((data) => (
-    <Card key={data.id} data={data} />
+    <WorkLogCard key={data.id} data={data} />
   ));
 
   return (

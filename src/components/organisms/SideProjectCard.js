@@ -1,5 +1,5 @@
+import CardIcon from "../atoms/CardIcon";
 import LinkIcons from "../atoms/LinkIcons";
-import TopIcon from "../atoms/TopIcon";
 import ProjectTypeLabel from "./ProjectTypeLabel";
 import classes from "./SideProjectCard.module.css";
 
@@ -24,7 +24,7 @@ const SideProjectCard = (props) => {
 
   return (
     <div className={classes["card"]}>
-      <TopIcon iconClasses={iconClasses} />
+      <CardIcon iconClasses={iconClasses} />
       <ProjectTypeLabel isPersonal={isPersonal} />
       <div className={classes["card__info"]}>
         <h2 className={classes["card__title"]}>{title}</h2>

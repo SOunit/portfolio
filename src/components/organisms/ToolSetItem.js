@@ -1,6 +1,6 @@
-import classes from "./Item.module.css";
+import classes from "./ToolSetItem.module.css";
 
-const Item = (props) => {
+const ToolSetItem = (props) => {
   return (
     <div className={classes["item"]}>
       <i className={`${props.data.iconClassName} ${classes["item__icon"]}`}></i>
@@ -10,4 +10,4 @@ const Item = (props) => {
   );
 };
 
-export default Item;
+export default ToolSetItem;

@@ -1,18 +1,18 @@
 import { FRONT_DATA, BACK_DATA, INFRA_DATA } from "../../data/tool-set";
 import SectionTitle from "../atoms/SectionTitle";
-import Item from "./Item";
 
 import classes from "./ToolSet.module.css";
+import ToolSetItem from "./ToolSetItem";
 
 const ToolSet = () => {
   const frontItems = FRONT_DATA.map((data) => (
-    <Item key={data.title} data={data} />
+    <ToolSetItem key={data.title} data={data} />
   ));
   const backItems = BACK_DATA.map((data) => (
-    <Item key={data.title} data={data} />
+    <ToolSetItem key={data.title} data={data} />
   ));
   const infraItems = INFRA_DATA.map((data) => (
-    <Item key={data.title} data={data} />
+    <ToolSetItem key={data.title} data={data} />
   ));
 
   return (

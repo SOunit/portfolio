@@ -1,6 +1,6 @@
-import classes from "./Card.module.css";
+import classes from "./WorkLogCard.module.css";
 
-const Card = (props) => {
+const WorkLogCard = (props) => {
   const skills = props.data.skills.map((skill) => (
     <div
       key={`${props.data.id}_${skill}`}
@@ -38,4 +38,4 @@ const Card = (props) => {
     </div>
   );
 };
-export default Card;
+export default WorkLogCard;

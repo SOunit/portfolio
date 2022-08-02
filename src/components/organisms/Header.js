@@ -1,8 +1,8 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import HeaderNav from "../molecules/HeaderNav";
 import MenuButton from "../atoms/MenuButton";
+import HeaderLinkIcons from "./HeaderLinkIcons";
 import classes from "./Header.module.css";
-import LinkIcons from "./LinkIcons";
 
 const Header = (props) => {
   return (
@@ -11,7 +11,7 @@ const Header = (props) => {
         <h1 className={classes["header__title"]}>Portfolio</h1>
       </AnchorLink>
       <div className={classes["header__items"]}>
-        <LinkIcons />
+        <HeaderLinkIcons />
         <HeaderNav />
         <MenuButton onSideMenuToggle={props.onSideMenuToggle} />
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./TopIcon.module.css";
+import classes from "./CardIcon.module.css";
 
-const TopIcon = (props) => {
+const CardIcon = (props) => {
   const { iconClasses } = props;
 
   return (
@@ -11,4 +11,4 @@ const TopIcon = (props) => {
   );
 };
 
-export default TopIcon;
+export default CardIcon;
