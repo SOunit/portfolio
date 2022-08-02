@@ -1,7 +1,4 @@
-import {
-  GITHUB_URL,
-  LINKEDIN_URL,
-} from "../../../../../../constants/links.constants";
+import { GITHUB_URL, LINKEDIN_URL } from "../../constants/links.constants";
 import Icon from "./Icon";
 import classes from "./Icons.module.css";
 

@@ -1,7 +1,7 @@
+import LinkIcons from "../atoms/LinkIcons";
+import TopIcon from "../atoms/TopIcon";
+import ProjectTypeLabel from "./ProjectTypeLabel";
 import classes from "./SideProjectCard.module.css";
-import LinkIcons from "./linkIcons/LinkIcons";
-import ProjectTypeLabel from "./projectTypeLabel/ProjectTypeLabel";
-import TopIcon from "./topIcon/TopIcon";
 
 const SideProjectCard = (props) => {
   const { data } = props;

@@ -1,5 +1,5 @@
-import SectionTitle from "../common/sectionTitle/SectionTitle";
-import SideProjectCardList from "./sideProjectCardList/SideProjectCardList";
+import SectionTitle from "./SectionTitle";
+import SideProjectCardList from "./SideProjectCardList";
 import classes from "./SideProjects.module.css";
 
 const SideProjects = () => {

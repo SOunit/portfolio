@@ -1,7 +1,7 @@
-import { Fragment, useState } from "react";
-import Header from "./Header/Header";
+import { useState } from "react";
 import classes from "./Layout.module.css";
-import SideMenu from "./SideMenu/SideMenu";
+import Header from "../organisms/Header";
+import SideMenu from "../organisms/SideMenu";
 
 const Layout = (props) => {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);

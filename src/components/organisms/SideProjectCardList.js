@@ -1,6 +1,6 @@
 import React from "react";
-import { PROJECTS } from "../../../data/side-projects";
-import SideProjectCard from "./sideProjectCard/SideProjectCard";
+import { PROJECTS } from "../../data/side-projects";
+import SideProjectCard from "./SideProjectCard";
 import classes from "./SideProjectCardList.module.css";
 
 const SideProjectCardList = () => {

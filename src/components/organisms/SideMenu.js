@@ -6,7 +6,7 @@ import {
   OFFSET_SIDE_PROJECTS,
   OFFSET_TOOL_SET,
   OFFSET_WORK_LOG,
-} from "../../../../../constants/offset.constants";
+} from "../../constants/offset.constants";
 
 const SideMenu = (props) => {
   const { onSideMenuClose, isOpen } = props;
