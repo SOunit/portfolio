@@ -1,5 +1,5 @@
 import CardIcon from "../atoms/CardIcon";
-import LinkIcons from "../atoms/LinkIcons";
+import LinkIcons from "./LinkIcons";
 import ProjectTypeLabel from "./ProjectTypeLabel";
 import classes from "./SideProjectCard.module.css";
 

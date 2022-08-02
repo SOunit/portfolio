@@ -1,5 +1,5 @@
 import { GITHUB_URL, LINKEDIN_URL } from "../../constants/links.constants";
-import HeaderLinkIcon from "./HeaderLinkIcon";
+import HeaderLinkIcon from "../atoms/linkIcon/HeaderLinkIcon";
 import classes from "./HeaderLinkIcons.module.css";
 
 const HeaderLinkIcons = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import DemoLinkIcon from "./DemoLinkIcon";
-import GithubLinkIcon from "./GithubLinkIcon";
+import DemoLinkIcon from "../atoms/linkIcon/DemoLinkIcon";
+import GithubLinkIcon from "../atoms/linkIcon/GithubLinkIcon";
 import classes from "./LinkIcons.module.css";
 
 const LinkIcons = (props) => {

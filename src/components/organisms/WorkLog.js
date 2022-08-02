@@ -1,10 +1,9 @@
+import classes from "./WorkLog.module.css";
 import { DATA_LIST } from "../../data/work-log";
-import BackIcon from "../atoms/BackIcon";
-import FrontIcon from "../atoms/FrontIcon";
 import SectionTitle from "../atoms/SectionTitle";
 import WorkLogCard from "./WorkLogCard";
-
-import classes from "./WorkLog.module.css";
+import BackIcon from "../atoms/icon/BackIcon";
+import FrontIcon from "../atoms/icon/FrontIcon";
 
 const WorkLog = () => {
   const workLogCards = DATA_LIST.map((data) => (
